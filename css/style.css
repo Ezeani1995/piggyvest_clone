@@ -597,6 +597,78 @@ a {
   gap: 6.25rem;
 }
 
+.testimonials .testimonials-inner .testimonials-messages {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.testimonials
+  .testimonials-inner
+  .testimonials-messages
+  .testimonials-message
+  img {
+  width: 2.1875rem;
+  border-radius: 50%;
+  margin-right: 0.625rem;
+}
+
+@keyframes scrollTop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-820.5px);
+  }
+}
+
+.testimonials
+  .testimonials-inner
+  .testimonials-messages
+  .testimonials-message
+  h5 {
+  font-size: 0.6875rem;
+}
+
+.testimonials
+  .testimonials-inner
+  .testimonials-messages
+  .testimonials-message
+  p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0.625rem 0;
+}
+
+.testimonials .testimonials-inner .testimonials-messages .testimonials-message {
+  padding: 0.9375rem;
+  background: #f9f9f9;
+  margin-bottom: 0.9375rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.4rem 0.4rem 0 rgba(121, 121, 121, 0.016);
+  cursor: pointer;
+  transition: all 0.5s linear;
+  max-height: 200%;
+  animation: scrollTop 20s linear infinite;
+}
+
+.testimonials
+  .testimonials-inner
+  .testimonials-messages
+  .testimonials-message
+  .time {
+  text-align: right;
+}
+
+.testimonials
+  .testimonials-inner
+  .testimonials-messages
+  .testimonials-message
+  .message-head {
+  display: flex;
+  align-items: flex-start;
+}
+
 /*============================================================================================
                                 FEATURES SECTION
 ==========================================================================================*/
